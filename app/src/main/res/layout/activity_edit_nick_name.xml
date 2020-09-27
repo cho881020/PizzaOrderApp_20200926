@@ -14,12 +14,14 @@
         android:text="새 닉네임" />
 
     <EditText
+        android:id="@+id/nickNameEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="닉네임 입력"
         android:singleLine="true" />
 
     <Button
+        android:id="@+id/okBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="입력 완료" />
