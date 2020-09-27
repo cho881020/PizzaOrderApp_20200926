@@ -10,6 +10,9 @@ class MainViewPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
 
     override fun getPageTitle(position: Int): CharSequence? {
 
+//        결과를 상황을 맞춰서 지정한다. return when(변수)
+//        코틀린에서 상황별 결과 지정해야한다 => return when이 더 정석이다.
+
         return when(position) {
             0 -> "피자 주문"
             else -> "내 정보 설정"
